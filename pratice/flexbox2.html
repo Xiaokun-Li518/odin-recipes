@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        .header {
+            height: 72px;
+            background: darkmagenta;
+            color: white;
+            font-size: 32px;
+            font-weight: 900;
+            padding-left: 16px;
+            display: flex;
+            align-items: center;
+        }
+
+        .footer {
+            height: 72px;
+            color: darkmagenta;
+            background: #eee;
+        }
+
+        .sidebar {
+            width: 300px;
+            background: royalblue;
+        }
+
+        .card {
+            border: 1px solid #eee;
+            box-shadow: 2px 4px 16px rhba(0, 0, 0 0.06);
+            border-radius: 4px;
+            padding: 32px;
+        }
+
+        /* solution */
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        .container1 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container1 > div {
+            font-size: 20px;
+            margin: 20px;
+            padding: 20px;
+            width: 400px;
+        }
+
+        .container0 {
+            display: flex;
+            flex: 1 1 auto;
+        }
+        .container0 > .sidebar {
+            width: 300px;
+            flex-shrink: 0;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="header">
+        MY AWESOME WEBSITE
+    </div>
+    <div class="container0">
+        <div class="sidebar">
+            <ul>
+                <li><a href="google.com">⭐ - link one</a></li>
+                <li><a href="google.com">🦸🏽‍♂️ - link two</a></li>
+                <li><a href="google.com">🖌️ - link three</a></li>
+                <li><a href="google.com">👌🏽 - link four</a></li>
+            </ul>
+        </div>
+        
+        <div class="container1">
+            <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquam, consectetur facere dolorum
+                dolore molestiae, eaque ab dicta, sit quam facilis exercitationem quae harum at earum quibusdam! Explicabo, repellat
+                ea!</div>
+            <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquam, consectetur facere dolorum
+                dolore molestiae, eaque ab dicta, sit quam facilis exercitationem quae harum at earum quibusdam! Explicabo, repellat
+                ea!</div>
+            <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquam, consectetur facere dolorum
+                dolore molestiae, eaque ab dicta, sit quam facilis exercitationem quae harum at earum quibusdam! Explicabo, repellat
+                ea!</div>
+            <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquam, consectetur facere dolorum
+                dolore molestiae, eaque ab dicta, sit quam facilis exercitationem quae harum at earum quibusdam! Explicabo, repellat
+                ea!</div>
+            <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquam, consectetur facere dolorum
+                dolore molestiae, eaque ab dicta, sit quam facilis exercitationem quae harum at earum quibusdam! Explicabo, repellat
+                ea!</div>
+            <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquam, consectetur facere dolorum
+                dolore molestiae, eaque ab dicta, sit quam facilis exercitationem quae harum at earum quibusdam! Explicabo, repellat
+                ea!</div>
+    
+        </div>
+    </div>
+
+        <div class="footer">
+            The Odin Project ❤️
+        </div>
+
+</body>
+</html>

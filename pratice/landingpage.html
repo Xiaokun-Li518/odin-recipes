@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+
+        .part1 {
+            background: #1F2937;
+            color: #F9FAF8;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        ul {
+            display: inline-flex;
+        }
+        .header {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        h2 {
+            padding-left: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #F9FAF8;
+        }
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+            padding-right: 30px;
+            font-size: 18px;
+        }
+
+        .sub1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex: 1 1 auto;
+        }
+        .sub1img > img {
+            width: 500px;
+            height: 200px;
+            padding: 100px;
+        }
+
+        .maintext {
+            padding-left: 200px;
+        }
+        h1 {
+            font-size: 48px;
+        }
+
+        .maintext >p {
+            font-size: 18px;
+            color: #E5E7EB;
+        }
+        .maintext >button {
+            background: #3882F6;
+            border: 1px solid royalblue;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 18px;
+            width: 120px;
+        }
+
+        .part2 > h1 {
+            padding-top: 30px;
+            font-size: 36px;
+            color: #1F2937;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        .part2images {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 50px;
+            padding-top: 30px;
+            gap: 50px;
+            flex: 1 1 auto;
+        }
+
+        .image > img{
+            width: 150px;
+            height: 150px;
+            border: 5px solid royalblue;
+            border-radius: 10px;
+        }
+
+
+        figcaption {
+            width: 150px;
+            color: #1F2937;
+        }
+
+        .part3 {
+            background: #E5E7EB;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        .part3 > p {
+            color: #1F2937;
+            font-size: 36px;
+            font-style: italic;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: lighter;
+            width: 740px;
+            margin: 0 auto;
+        }
+
+        .quote {
+            padding-left: 600px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        
+
+        .sub4 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #3882F6;
+            margin:150px;
+            height: 200px;
+            border-radius: 10px;
+            color: #E5E7EB;
+        }
+
+        .sub4 button {
+            border: 2px solid white;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 18px;
+            width: 150px;
+            background: #3882F6;
+
+        }
+
+        .footer {
+            background: #1F2937;
+            color: #E5E7EB;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-weight: lighter;
+        }
+
+        
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="part1">
+        <div class="header">
+            <h2>Header Logo</h2>
+            <div  class="right-links">
+                <ul>
+                    <li><a href="#">header link one</a></li>
+                    <li><a href="#">header link two</a></li>
+                    <li><a href="#">header link three</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sub1">
+            <div class="maintext">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the
+                    main title. It's a smaller font and the color is lower
+                    contrast</p>
+                <button type="button">Sign up</button>
+            </div>
+            <div class="sub1img">
+                <img src="./images/marriage-proposal-4834488__340.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="part2">
+        <h1>Some random information</h1>
+        <div class="part2images">
+            <div class="image">
+                <img src="./images/city-6756798__340.jpeg" alt="">
+            <figcaption>this is some subtext
+                under an illustration
+                or image</figcaption>
+            </div>
+            <div class="image">
+                <img src="./images/year-6786741__340.jpeg" alt="">
+                <figcaption>this is some subtext
+                    under an illustration
+                    or image</figcaption>
+            </div>
+            <div class="image">
+                <img src="./images/building-6822998__340.jpeg" alt="">
+            <figcaption>this is some subtext
+                under an illustration
+                or image</figcaption>
+            </div>
+            <div class="image">
+                <img src="./images/boat-6762897__340.jpeg" alt="">
+            <figcaption>this is some subtext
+                under an illustration
+                or image</figcaption>
+            </div>
+        </div>
+    </div>
+    <div class="part3">
+        <p>
+            This is an inspiring quote, or a testimonial from a
+            customer. Maybe it's just filling up space, or maybe
+            people will actually read it. Who knows? All | know
+            is that it looks nice.
+        </p>
+        <div class="quote">
+            -Thor, God Of Thunder
+        </div>
+    </div>
+
+    <div class="part4">
+        <div class="sub4">
+            <div>
+                <h2>Call to action! it's time</h2>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div>
+                <button type="button">Sign up</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        Copyright ©   The Odin Project 2021
+    </div>
+</body>
+</html>
